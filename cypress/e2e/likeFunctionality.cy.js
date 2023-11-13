@@ -1,7 +1,7 @@
-import simpleHTMLElemPage from "../pages/SimpleHTMLElem.page";
+import simpleHTMLElemPage from "../pages/SimpleHTMLelem.page";
 import buttonSuccessPage from "../pages/Button.success.page";
 
-describe("Contact us Form", () => {
+describe('"Like" button', () => {
     beforeEach(() => {
         cy.visit("https://ultimateqa.com/simple-html-elements-for-automation/");
     });
