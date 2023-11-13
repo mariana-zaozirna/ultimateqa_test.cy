@@ -1,0 +1,6 @@
+# Ignore artifacts:
+build
+**/cypress/downloads
+**/cypress/fixtures
+**/.git
+**/node_modules

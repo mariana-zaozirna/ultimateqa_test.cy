@@ -1,0 +1,23 @@
+{
+    "name": "ultimateqa.cy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test:open": "npx cypress open",
+        "test:run": "npx cypress run",
+        "code:format": "npx prettier . --write"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@faker-js/faker": "^8.2.0",
+        "cypress": "^13.5.0",
+        "cypress-xpath": "^2.0.1",
+        "prettier": "3.0.3"
+    },
+    "dependencies": {
+        "cypress-real-events": "^1.11.0"
+    }
+}
