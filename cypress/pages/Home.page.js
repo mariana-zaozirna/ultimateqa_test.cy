@@ -22,22 +22,6 @@ class HomePage extends Page {
     get automationExercisesItem() {
         return cy.get("#menu-home-page-menu .menu-item-587");
     }
-    get aboutDropdown() {
-        return cy.get(".et-menu-nav .menu-item-217539");
-    }
-    get subMenuAbout() {
-        return cy.get(".et-menu-nav .menu-item-217539 li");
-    }
-    get contactUsItem() {
-        return cy.get(".et-menu-nav .menu-item-217444");
-    }
-    get linkedInitem() {
-        return cy.get(".et-menu-nav .menu-item-217647");
-    }
-    get youTubeItem() {
-        return cy.get(".et-menu-nav .menu-item-217648");
-    }
-
     open() {
         super.open("");
     }

@@ -7,7 +7,6 @@ class Consulting extends Page {
     get allFormLabels() {
         return cy.get(".wpforms-field-label");
     }
-
     get nameInput() {
         return cy.get("#wpforms-217788-field_0");
     }
